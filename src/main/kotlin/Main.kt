@@ -28,7 +28,6 @@ fun main(args: Array<String>) {
     wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"folders-container\"]/div[4]")))
 
     val ul = driver.findElement(By.xpath("//*[@id=\"folders-container\"]/div[4]/div[1]/ul"))
-    "//*[@id=\"folders-container\"]/div[4]/div[1]/ul/a[18]"
 
     val startTime = LocalDateTime.of(2023, 1, 1, 0, 0, 0)
     while (true) {
